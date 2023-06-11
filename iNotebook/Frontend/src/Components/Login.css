@@ -1,0 +1,18 @@
+.loginmain {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.login-back-style {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid rgb(191, 191, 191);
+  box-shadow: 2px 2px 6px 4px gray;
+}
+.loginmain h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.loginmain input {
+  width: 300px;
+}
