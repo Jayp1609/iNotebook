@@ -63,7 +63,7 @@ const Notes = () => {
         ref={ref}
         style={{ display: "none" }}
       >
-        Launch demo modal
+        modal
       </button>
       <div
         className="modal fade"

@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { context } from "../Context/NoteContext";
 const Signup = () => {
@@ -46,7 +46,10 @@ const Signup = () => {
       showalert("Email address already in use", "danger");
     }
   };
-
+  useEffect(() => {
+    handleSubmit();
+    // eslint-disable-next-line
+  }, []);
   const onChange = (e) => {
     setCredentials({ ...credentials, [e.target.name]: e.target.value });
   };
